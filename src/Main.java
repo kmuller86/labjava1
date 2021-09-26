@@ -23,8 +23,28 @@ public class Main {
         *    a) liczbaA i liczbaB, dowolne liczby calkowite (int),
         *    b) liczbaX i liczbaY, dowolne liczby zmiennoprzecinkowe (double)
         *  */
+        int liczbaA = 5;
+        int liczbaB = 6;
+        double liczbaX = 3.232;
+        double liczbaY = 4.231;
+
+        int wynikdod = liczbaA + liczbaB;
+        double wynikdoda = liczbaX + liczbaY;
+
+        int wynikode = liczbaA - liczbaB;
+        double wynikodej = liczbaX - liczbaY;
+        int wynikmno = liczbaA * liczbaB;
+        double wynikmnoz = liczbaX * liczbaY;
+        int wynikdzi = liczbaA / liczbaB;
+        double wynikdzie = liczbaX / liczbaY;
+
+        String wynik = "Twoje wyniki to: ";
+        System.out.println("Twoje liczby to: " + liczbaA + przeci + liczbaB + przeci + liczbaX + przeci + liczbaY);
+        System.out.println(wynik + "Dodawanie: " + wynikdod + przeci + wynikdoda + przeci + "Odejmowanie: " + wynikode + przeci + wynikodej + przeci +"Mnozenie: " + przeci + wynikmno + przeci + wynikmnoz + przeci + "Dzielenie: " +przeci+wynikdzi+ przeci+wynikdzie);
+
 
 
 
     }
+
 }
