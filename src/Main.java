@@ -20,7 +20,8 @@ public class Main {
 
         /* zad.2 użyj parametru trójargumentowego aby sprawdzić parzystośc nr. indeksu */
 
-
+        String tekst = wiek/2 ==0 ? "Wiek jest podzielny przez 2" : "Wiek nie jest podzielny przez 2";
+        System.out.println(tekst);
         /* zad.3 wpisz z klawiatury liczbę zmiennoprzecinkową (użyj klasy Scanner z poprzednich ćwiczeń)
          * i stwórz konstrukcję else if z dowolnymi komunikatami */
 
