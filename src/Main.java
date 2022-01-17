@@ -27,6 +27,7 @@ public class Main {
 
         System.out.println("Podaj liczbe zmiennoprzecinkową");
         double liczba = scan.nextDouble();
+        /* mialo byc else if() */
         if (liczba > 5){
             int wynik1 = (int)(liczba/liczba);
             double wynik2 = liczba - (double)wynik1;
